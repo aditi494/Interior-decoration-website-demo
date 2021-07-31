@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    background-image: url(https://images.unsplash.com/photo-1586208047422-45a39beba5e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=950&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay1{
+    width: 100%;
+    height: 25%;
+    /*background-color: rgba(48, 46, 46, 0.089);*/
+    background-image: linear-gradient(rgb(12, 11, 11),rgba(185, 182, 182, 0.274));
+    display: flex;
+    justify-content: space-between;
+   /* margin-left: 70px;
+    padding-top: 30px;*/
+}
+#symbol{
+    width: 120px;
+    height: 90px;
+    /*background-color: honeydew*/;
+    display: flex;
+    color: white;
+    margin-left: 70px;
+    padding-top: 30px;
+}
+#symbol h1{
+    font-family: 'Scriptina Pro';
+}
+#symbol h4{
+    font-family: 'Montserrst Light';
+    line-height: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#side{
+    width: 140px;
+    height: 80px;
+    /*background-color: violet;*/
+    margin-right: 70px;
+    margin-top: 30px;
+    display: flex;
+}
+#side h4{
+    font-size: 12px;
+    color: white;
+}
+#side i{
+    color: white;
+    margin-left: 10px;
+}
+#main{
+    width: 100%;
+    height: 50%;
+    background-color:rgba(185, 182, 182, 0.274) ;
+}
+#main h4{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 40%;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+
+}
+#main h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Scriptina';
+    margin-left: 35%;
+    line-height: 80px;
+}
+#main h1 P{
+    margin-left: 160px;
+    font-family: 'Scriptina';
+}
+#overlay2{
+    width: 100%;
+    height: 25%;
+    /*background-color: rgba(48, 46, 46, 0.089);*/
+    background-image: linear-gradient(rgba(185, 182, 182, 0.274),rgb(12, 11, 11));
+    display: flex;
+    
+}
+#left{
+    width: 10%;
+    height: 100%;
+    /*background-color: teal;*/
+}
+
+.class{
+    width: 31%;
+    height: 100%;
+    /*background-color:rgba(255, 255, 255, 0.219);*/
+    background-image: linear-gradient(rgba(185, 182, 182, 0.164),rgba(12, 11, 11, 0.199));
+    margin-left: 10px;
+}
+.class span{
+    color: rgba(250, 246, 246, 0.521);
+    margin-left: 8px;
+    font-weight: 500;
+}
+.class h1{
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 8px ;
+    font-family: 400;
+}
+#third{
+    background-color:#ffff;
+    display: flex;
+}
+#img{
+    width: 45%;
+    height: 100%;
+    /*background-color:yellow;*/
+    
+    background-position: center;
+    background-size: cover;
+}
+#img video{
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+    width: 55%;
+    height: 100%;
+    background-color:rgb(211, 208, 208);
+    padding-top: 40px;
+    padding-left: 30px;
+}
+#content span{
+    color: rgba(0, 0, 0, 0.37);
+    font-weight: 700;
+}
+#content h1{
+    color: rgb(252, 252, 252);
+    margin-top: 10px;
+    font-weight: 650;
+}
+#details{
+    width: 100%;
+    height: 40%;
+    /*background-color: violet;*/
+}
+#class{
+    width: 76%;
+    height: 100%;
+    /*background-color: yellowgreen;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#class .info{
+width: 28%;
+height: 100%;
+/*background-color: teal;*/
+padding: 50px 0;
+margin-top: 40px;
+}
+.info #nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav h1{
+    font-size: 17px;
+    line-height: 17px;
+}
+#nav span{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgba(182, 174, 174, 0.945);
+    opacity: 0.2;
+    padding-right: 14px;
+}
+.info p{
+    font-size: 10px;
+    color: grey;
+    opacity: 0.8;
+    margin-top: 10px;
+    line-height: 15px;
+}
+.info h2{
+    font-size: 9px;
+    color: grey;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+#imgback{
+    width: 100%;
+    height: 50%;
+    background-color: violet;
+    background-image: url(https://i.pinimg.com/originals/c4/19/fb/c419fb0ce87e9e1ae39ea83a9f66e340.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+#imgcontent{
+    width: 30%;
+    height: 100%;
+    /*background-color: white;*/
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+    color: #ffff;
+    position: relative;
+}
+#imgcontent p{
+    font-size: 10px;
+    margin-top: 15px;
+    line-height: 17px;
+}
+#imgcontent #play{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(199, 104, 26, 0.555);
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(50%, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#play #centre{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(199, 104, 26, 0.726);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#project{
+    width: 100%;
+    height: 30%;
+    /*background-color: burlywood;*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#box{
+    width: 30%;
+    height: 55%;
+    border: 3px solid rgba(230, 227, 227, 0.774);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#box h1{
+    font-size: 30px;
+}
+#box p{
+    font-size: 10px;
+    font-weight: 700;
+}
+#projectimg{
+    width: 100%;
+    height: 40%;
+    background-color: blue;
+    display: flex;
+}
+.img{
+    width: 20%;
+    height: 100%;
+    background-color: cadetblue;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.img h1{
+    position: absolute;
+    left: 42%;
+    top: 110%;
+    transform: translate(50%,0);
+    font-size: 11px;
+    text-align: center;
+}
+.img p{
+    position: absolute;
+    left: 55%;
+    top: 115%;
+    transform: translate(50%,0);
+    font-size: 8px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(202, 199, 199);
+} 
+#img1{
+    background-image: url(https://catesthill.com/wp-content/uploads/2017/01/Say_My_Name_Pendant_Smoked-grey-glossy-landscape-Low_res_Photo-Chris_Tonnesen.jpg); 
+}
+#img2{
+    background-image: url(https://www.caandesign.com/wp-content/uploads/2015/07/Luxury-Nomad-Apartment-in-The-Heart-of-Berlin-03.jpg);
+}
+#img3{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/23d09a54850097.596caa014906e.jpg);
+}
+#img4{
+    background-image: url(https://stylejuicer.com/wp-content/uploads/2018/10/courtyard-extension-ritz-ghougassian-stylejuicer-02.jpg);
+}
+#imgoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+#imgoverlay h1{
+    font-weight: 400;
+}
+#img5{
+    background-image: url(https://cdn.home-designing.com/wp-content/uploads/2016/09/Abandoned-manor-living-room-open-French-doors-high-ceilings-iron-ore-staircase-1024x683.jpg);
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(50%, 0);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 5px 6px rgb(155, 153, 153) ;
+}
+
+#circle1{
+    background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+#circle2{
+    background-image: url(https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+#circle3{
+    background-image: url(https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+#circle4{
+    background-image: url(https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+#circle5{
+    background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+#space{
+    width: 100%;
+    height: 20%;
+    /*background-color: blue;*/
+}
+#picoverlay{
+    width: 100%;
+    height: 55%;
+    background-color: hotpink;
+    background-image: url(https://www.granddesignsmagazine.com/images/2018/01/BetteStarlet-Oval-Silhouette-small-bathroom.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+#black{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.88;
+    display: flex;
+    align-items: center;
+}
+#divider{
+    width: 60%;
+    height: 70%;
+    margin: 0 auto;
+
+}
+#divider1{
+    width: 100%;
+    height: 50%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    justify-content: space-between;
+}
+#divider2{
+    width: 100%;
+    height: 50%;
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.details{
+    width: 32%;
+    height: 100%;
+    /*background-color: blue;*/
+    display: flex;
+}
+.details #icon{
+    width: 20%;
+    height: 100%;
+    /*background-color: blueviolet;*/
+}
+#icon i{
+    font-size: 25px;
+    margin-left: 26px;
+    color: rgba(240, 85, 85, 0.747);
+} 
+.details #des{
+    width: 80%;
+    height: 100%;
+    /*background-color: chartreuse;*/
+}
+#des h1{
+    font-size: 15px;
+    color: #ffff;
+}
+#des p{
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 5px;
+    color: #ffff;
+}
+#news{
+    width: 60%;
+    height: 55%;
+    background-color: #ffff;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#heading h1{
+    font-size: 15px;
+}
+#heading h4{
+    font-size: 12px;
+    color: rgba(240, 85, 85, 0.747);
+}
+#reports{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    /*background-color: greenyellow;*/
+    margin-top: 65px;
+    justify-content: space-between;
+}
+.news{
+    width: 31%;
+    height: 100%;
+    /*background-color: grey;*/
+}
+.news h4{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color:  rgba(240, 85, 85, 0.747);
+}
+.news h1{
+    font-size: 20px;
+}
+.news p{
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 15px;
+    color: grey;
+}
+#play{
+    width: 45px;
+    height: 28px;
+    border-radius: 45%;
+    background-color:  rgba(240, 85, 85, 0.747);
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+#bottom{
+    width: 100%;
+    height: 55%;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/originals/c4/19/fb/c419fb0ce87e9e1ae39ea83a9f66e340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#bottomoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.88;
+   
+}
+#bottomback{
+    width: 60%;
+    height: 100%;
+    /*background-color: burlywood;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.bottom{
+    width: 31%;
+    height: 90%;
+    /*background-color: blueviolet;*/
+}
+#contact1{
+    display: flex;
+}
+#line{
+    width: 1.5px;
+    height: 70px;
+    background-color: rgba(240, 85, 85, 0.747);
+    margin-right: 15px;
+}
+.bottom h1{
+    color: rgba(240, 85, 85, 0.747);
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.bottom h5{
+    color: #ffff;
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+#contact2{
+    display: flex;
+}
+#contact3{
+    display: flex;
+}
+.D{
+    margin-top: 80px;
+}
+.D h3{
+    color: rgb(252, 220, 172);
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ button{
+     margin-top: 10px;
+     margin-bottom: 10px;
+    padding: 10px 32px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 11px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+}
+#otherdetails1{
+    width: 100%;
+    height: 60%;
+    /*background-color: burlywood;*/
+    display: flex;
+}
+#otherdetails1 #text{
+    width: 40%;
+    height: 100%;
+}
+#text i{
+  margin-left: 10px;
+}
+
+
+#chair{
+    width: 30%;
+    height: 40%;
+    /*background-color: blue;*/
+    
+}
+img{
+     max-width: 70%;
+     height: auto;
+     color: cadetblue;
+}
+
